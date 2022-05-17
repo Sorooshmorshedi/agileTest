@@ -13,7 +13,7 @@ import RestaurantScreen from '@/components/RestaurantScreen';
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
     RestaurantScreen
   },
 };
