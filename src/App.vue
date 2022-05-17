@@ -1,12 +1,21 @@
 <template>
   <div id="app">
-    Hello, world.
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <HelloWorld msg="soroosh" />
+    <RestaurantScreen />
   </div>
 </template>
 
 <script>
+import HelloWorld from './components/HelloWorld.vue';
+import RestaurantScreen from '@/components/RestaurantScreen';
+
 export default {
   name: 'App',
+  components: {
+    HelloWorld
+    RestaurantScreen
+  },
 };
 </script>
 
