@@ -1,6 +1,14 @@
 # opinion-ate
++
++An app for tracking reviews of dishes at different restaurants.
++
++Production: <https://testistest.netlify.app>
 
 ## Project setup
++Dependencies are locked with a `yarn.lock` file, so please use `yarn` and not
++`npm` for installing them.
++
+
 ```
 npm install
 ```
@@ -32,3 +40,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
