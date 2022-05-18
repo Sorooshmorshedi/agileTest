@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <v-app>
     <v-app-bar color="primary" fixed app>
       <v-toolbar-title>Opinion Ate</v-toolbar-title>
@@ -14,11 +15,30 @@
 </template>
 
 <script>
+=======
+  <div id="app">
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <HelloWorld msg="soroosh" />
+    <RestaurantScreen />
+  </div>
+</template>
+
+<script>
+import HelloWorld from './components/HelloWorld.vue';
+import RestaurantScreen from '@/components/RestaurantScreen';
+
+>>>>>>> list-restaurants
 export default {
   name: "App",
   components: {
+<<<<<<< HEAD
 
   }
+=======
+    HelloWorld,
+    RestaurantScreen
+  },
+>>>>>>> list-restaurants
 };
 </script>
 
