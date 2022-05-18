@@ -1,18 +1,24 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="soroosh" />
-  </div>
+  <v-app>
+    <v-app-bar color="primary" fixed app>
+      <v-toolbar-title>Opinion Ate</v-toolbar-title>
+    </v-app-bar>
+    <v-content>
+      <v-container>
+        <RestaurantScreen />
+      </v-container>
+    </v-content>
+  </v-app>
+
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
-
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld,
-  },
+
+  }
 };
 </script>
 
